@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 4rem);
+  grid-gap: 1rem;
+  justify-content: center;
+}
+.showwinner {
+  color: #748da6;
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
+}

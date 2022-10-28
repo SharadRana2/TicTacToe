@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.reset {
+  color: #748da6;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  border: 4px solid #748da6;
+  padding: 1rem 2rem;
+  display: block;
+  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+.reset:hover {
+  background-color: #748da6;
+  color: #fff;
+}
+@media (max-width: 450px) {
+  .reset {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+}
